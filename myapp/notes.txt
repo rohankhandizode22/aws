@@ -1,0 +1,15 @@
+-> Deploy code in Aws Lamda 
+  -> Download aws cli 
+  https://docs.aws.amazon.com/cli/v1/userguide/install-windows.html
+  -> after install check 
+  -> open cmd 
+    aws --version 
+  -> Then login in cli with aws credientails 
+     My secret credientails download from aws cli 
+-> aws configure 
+
+-> https://www.npmjs.com/package/aws-serverless-express
+npm install aws-serverless-express --save
+npm install serverless --dev
+
+  

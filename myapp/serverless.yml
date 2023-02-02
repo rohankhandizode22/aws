@@ -1,0 +1,16 @@
+service: rohan-lambda-test
+
+provider:
+  name: aws 
+  runtime: nodejs14.x
+  memorySize: 512 
+  timeout: 15
+  stage: production 
+  region: ap-south-1
+
+functions:
+  api:
+    handler: lambda.handler 
+    events: 
+      - http: ANY /{proxy+} 
+      - http: ANY /
